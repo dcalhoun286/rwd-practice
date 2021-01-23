@@ -4,44 +4,39 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
 header {
   height: 75px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: center;
 }
 
 main > section:first-child {
   height: 150px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main > section:nth-child(2) {
+main > section:not(:first-child) {
   height: 125px;
-}
-
-main > section:nth-child(3) {
-  height: 125px;
-}
-
-main > section:nth-child(4) {
-  height: 125px;
-}
-
-main > section:nth-child(5) {
-  height: 125px;
-}
-
-main > section:nth-child(6) {
-  height: 125px;
-}
-
-main > section:nth-child(7) {
-  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
   height: 80px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: center;
 }
 
 @media screen and (min-width: 480px) {
+
   body {
     margin: auto;
     overflow: scroll;
