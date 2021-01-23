@@ -5,11 +5,6 @@
 - border design
 */
 
-header, section, footer {
-  border: 1px solid #301d70;
-  opacity: 0.7;
-}
-
 header {
   background-color: red;
 }
