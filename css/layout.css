@@ -1,0 +1,96 @@
+/* anything that affects the way elements lay out on the page
+*/
+
+body {
+  max-width: 480px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section:first-child {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section:not(:first-child) {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#e, #g {
+  float: left;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#f, #h {
+  float: right;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+@media (min-width: 768px) {
+
+  header {
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  #b {
+    float: left;
+    width: 21%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #c {
+    float: left;
+    width: 39.5%; 
+    height: 200px;
+  }
+  
+  #d {
+    float: right;
+    width: 39.5%;
+    height: 200px;
+  }
+
+  #e, #f, #g, #h {
+    float: left;
+    width: 19.75%;
+    height: 250px;
+  }
+
+  footer {
+    width: 79%;
+    height: 150px;
+    margin-left: 20%;
+  }
+}
