@@ -6,42 +6,85 @@
 */
 
 header {
-  background-color: red;
+  background-color: rgb(10, 10, 10);
 }
 
 main section:first-child {
-  background-color: orange;
+  background-color: rgb(31, 30, 30);
 }
 
 main section:nth-child(2) {
-  background-color: yellow;
+  background-color: rgb(58, 58, 58);
 }
 
 main section:nth-child(3) {
-  background-color: green;
+  background-color: rgb(79, 78, 78);
 }
 
 main section:nth-child(4) {
-  background-color: blue;
+  background-color: rgb(104, 104, 104);
 }
 
 main section:nth-child(5) {
-  background-color: rebeccapurple;
+  background-color: rgb(121, 121, 121);
 }
 
 main section:nth-child(6) {
-  background-color: magenta;
+  background-color: rgb(140, 140, 140);
 }
 
 main section:nth-child(7) {
-  background-color: brown;
+  background-color: rgb(160, 160, 160);
 }
 
 footer {
-  background-color: grey;
+  background-color: rgb(186, 186, 186);
 }
 
-@media (min-width:768px) {
+@media screen and (min-width: 480px) {
+  header, section, footer {
+    opacity: 1;
+  }
+
+  header {
+    background-color: rgb(106, 4, 4);
+  }
+
+  main > section:first-child {
+    background-color: rgb(234, 121, 0);
+  }
+
+  main > section:nth-child(2) {
+    background-color: rgb(255, 225, 0);
+  }
+
+  main > section:nth-child(3) {
+    background-color: green;
+  }
+
+  main > section:nth-child(4) {
+    background-color: rgb(0, 123, 255);
+  }
+
+  main > section:nth-child(5) {
+    background-color: blue;
+  }
+
+  main > section:nth-child(6) {
+    background-color: rgb(197, 24, 255);
+  }
+
+  main > section:nth-child(7) {
+    background-color: rebeccapurple;
+  }
+
+  footer {
+    background-color: rgb(91, 61, 61);
+  }
+
+}
+
+@media screen and (min-width:768px) {
   header, section, footer {
     border: 1px solid #301d70;
     opacity: 0.7;
@@ -51,31 +94,31 @@ footer {
     background-color: cadetblue;
   }
   
-  main section:first-child {
+  main > section:first-child {
     background-color: bisque;
   }
   
-  main section:nth-child(2) {
+  main > section:nth-child(2) {
     background-color: forestgreen;
   }
   
-  main section:nth-child(3) {
+  main > section:nth-child(3) {
     background-color: cyan;
   }
   
-  main section:nth-child(4) {
+  main > section:nth-child(4) {
     background-color: mediumaquamarine;
   }
   
-  main section:nth-child(5) {
+  main > section:nth-child(5) {
     background-color: hotpink;
   }
   
-  main section:nth-child(6) {
+  main > section:nth-child(6) {
     background-color: silver;
   }
   
-  main section:nth-child(7) {
+  main > section:nth-child(7) {
     background-color: thistle;
   }
   
