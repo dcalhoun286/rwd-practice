@@ -21,4 +21,7 @@
 ## Contributors, Collaborators, and Resources
 
 - This is what I used as a guide to help me decide what breakpoints would be appropriate
-  - [Popular Screen Resolutions: Designing for All](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/)
+  - [Popular Screen Resolutions: Designing for All - mediag.com](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/)
+- I used this resource to render the height of elements as a percentage of width
+  - [How to define height of a div as percentage of its variable width - makandracards.com](https://makandracards.com/makandra/45969-how-to-define-height-of-a-div-as-percentage-of-its-variable-width)
+- [A Complete Guide to Flexbox - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
